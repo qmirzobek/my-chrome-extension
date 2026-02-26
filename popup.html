@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { width: 250px; padding: 15px; font-family: 'Segoe UI', sans-serif; }
+    textarea { width: 100%; height: 80px; margin-bottom: 10px; border: 1px solid #ccc; border-radius: 4px; padding: 5px; box-sizing: border-box; resize: none; }
+    button { width: 100%; background: #0088cc; color: white; border: none; padding: 10px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+    button:hover { background: #0077b5; }
+    #status { font-size: 11px; text-align: center; margin-top: 8px; color: green; display: none; }
+  </style>
+</head>
+<body>
+  <h3>Send Note</h3>
+  <textarea id="noteInput" placeholder="Type something to send..."></textarea>
+  <button id="sendBtn">Send to Telegram</button>
+  <div id="status">Sent successfully! ✅</div>
+  <script src="popup.js"></script>
+</body>
+</html>

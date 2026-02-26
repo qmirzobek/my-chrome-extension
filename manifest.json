@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Telegram Snippet Saver",
+  "version": "1.4",
+  "description": "Send highlighted text or manual notes to your Telegram Bot.",
+  "permissions": ["contextMenus", "storage", "activeTab"],
+  "host_permissions": ["https://xngeaeojidykksdnfwek.supabase.co/functions/v1/quick-action*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
